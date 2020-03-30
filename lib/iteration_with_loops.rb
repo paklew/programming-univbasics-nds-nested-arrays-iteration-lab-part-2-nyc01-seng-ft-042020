@@ -5,7 +5,7 @@ results = []
 row_index = 0 
 while row_index < src.length do
   element_index = 0 
-  lowest_array_value = 5000
+  lowest_array_value = src[row_index][0]
   while element_index < src[row_index].length do
   if lowest_array_value > src[row_index][element_index]
     lowest_array_value = src[row_index][element_index]
