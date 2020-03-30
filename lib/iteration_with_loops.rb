@@ -15,4 +15,5 @@ while row_index < src.length do
   results << lowest_array_value
   row_index += 1 
 end
+p results
 end
